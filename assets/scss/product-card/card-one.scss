@@ -8,12 +8,11 @@
     height: 100vh;
     width: 100%;
     background-color: #e1d8d842;
-    text-align: center;
 
 }
 .top{
     display: flex;
-    font-size: 12px;
+    font-size: 15px;
     justify-content: center;
     color:rgb(65 175 179 / 89%);
     padding: 15px;
@@ -29,9 +28,9 @@
 .container{
     display: flex;
     margin: auto;
-    width: 67%;
-    height: 90vh;
+    width: 82%;
     background-color:#fff;
+
 }
 .left{
     display: flex;
@@ -41,26 +40,259 @@
 .picture img{
     width: 150px;
     height: 250px;
-    margin: 40px 50px;
+    margin: 37px 36px 10px 45px;
+
 }
+.shortcut{
+    display: flex;
+}
+.shortcut img{
+    padding: 10px;
+    margin: 10px 5px 10px 10px;
+    background: #e1d8d842;
+    border: 1px solid white;
+}
+.shortcut img:hover{
+    border: 1px solid #ff4d0bba ;
+
+}
+.shortcut i{
+    padding:30px 0px 29px 5px;
+    margin:2px 30px 0px 8px;
+}
+
 .description{
     height: 100vh;
     width: 100%;
-    color:rgb(61 54 54 / 80%);;
+   
     text-align: start;
     padding: 15px;
     
 }  
-.right{
-    flex-basis: 35%;
-    background-color: blue;
+.description p{
+    font-size: 20px;
+    color:rgba(61, 54, 54, 0.822);
+}
+ .star{
+    display: flex;
+ }
+.star-left {
+    padding: 10px 0 0 0;
+    font-size: 10px;
+    color: gold;
+    margin-bottom: 15px;
+}
+.star P{
+    font-size: 11px;
+    color:rgb(65 175 179 / 89%) ;
+    display: inline;
+}
+/*{
+    font-size: 15px;
+    color: rgb(65 175 179 / 89%);
+}*/
+.bold{
+    color: gray;
+}
+.price h4{
+    color:#ff4500cc;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.star-right {
+    display: flex;
+    font-size: 15px;
+    color: gray;
+}
+.star-right i{
+    padding: 20px 0px 22px 5px;
+    margin-left: 14px;
+    margin-right: -13px;
+}
+
+hr{
+    border: 0.5px solid rgba(0, 0, 0, 0.171);
+}
+.price h5{
+
+    color:rgba(0, 0, 0, 0.712);
+    padding-bottom:15px ;
+}
+.price span{
+    color:rgba(124, 118, 118, 0.425);
+    text-decoration:line-through;
+    padding-bottom: 30px;
+}
+.color p{
+    padding-top:20px ;
+    padding-bottom: 10px;
+    color:rgb(124 118 118 / 95%) ;
+    font-size: 12px;
+}
+.color span{
+    font-size: 12px;
+    color:rgba(0, 0, 0, 0.76); ;
+}
+.bag{
+    margin-left: 70px;
+}
+.color img{
+    padding: 5px 10px;
+    background: #e1d8d842;
+    margin: 0 2px;
+    border: 1px solid white;
+}
+.active{
+    border: 1px solid #ff4d0bba !important;
+}
+.color img:hover{
+    border: 1px solid #ff4d0bba ;
+}
+.Quantity p{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: rgba(70, 69, 69, 0.856);
+}
+.Quantity span{
+    padding:  7px 13px;
+    background: #e1d8d842;
+    color:rgba(124, 118, 118, 0.747) ;
+}
+.Quantity span:hover{
+    background:rgba(124, 118, 118, 0.747) ;
+    color: #fff;
+}
+.btn{
+    padding: 30px 0;
+}
+.btn a{
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 2px;
+    color: white;
+}
+.btn .buy{
+    background: #11a9e7;
+    padding: 12px 85px;
+}
+.btn .add{
+    background:#ff4d0bba;
+    padding:12px 80px;
 }
 
 
+.right{
+    flex-basis: 35%;
+    background: #fff;
+    /*background:#f3e8e84d;*/
 
 
+}
+.header{
+    background: #f3e8e84d;
+    padding: 20px  20px 0px 20px;
+}
+.content{
+    background:#f3e8e84d;
+    padding:0  20px; 
+    margin-top: 10px ;
+    
 
+}
+.delivary,
+.location,
+.service{
+    display:flex;
+    justify-content: space-between;
+}
+.delivary,
+.delivary i,
+.location i,
+.stander i,
+.cash i,
+.service i, 
+.service p {
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.952);
+}
+.location{
+    font-size: 15px;
+    padding: 10px 0px ;
+    color: rgba(0, 0, 0, 0.774);
+}
+.location span{
+    color: rgb(65 175 179 / 89%);
+}
+.stander{
+    display: flex;
+    justify-content: space-between;
+}
+.stander p{
+    font-size: 12px;
+    padding: 20px 15px 20px 0;
+    color: rgba(128, 128, 128, 0.952) ;
 
+}
+.stander span{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.637);
+    font-weight: 600;
 
+}
+.cash,
+.details p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.774);
+    padding-bottom: 20px;
+}
+.service{
+   padding: 20px 0px;
+}
+.details span{
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.952);
+
+}
+.sold{
+    display: flex;
+    justify-content: space-between;
+}
+.sold p{
+    font-size: 12px;
+    padding: 10px 15px 10px 0;
+    color: rgba(128, 128, 128, 0.952) ;
+
+}
+.sold span{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.774);
+
+}
+.sold i{
+    color: rgb(65 175 179 / 89%) ;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+}
+.rate p{
+    padding:15px 10px 0px 10px;
+    font-size: 13px;
+    color:  rgba(128, 128, 128, 0.952);
+}
+.rate span{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: black;
+}
+.visit p{
+    font-size: 15px;
+    color:  rgb(65 175 179 / 89%);
+    padding: 5px 120px 6px 125px;
+    
+}
 
 
