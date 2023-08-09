@@ -1,0 +1,28 @@
+.left{
+    display: flex;
+    flex-basis: 70%;
+}
+
+.picture img{
+    width: 150px;
+    height: 250px;
+    margin: 37px 36px 10px 45px;
+
+}
+.shortcut{
+    display: flex;
+}
+.shortcut img{
+    padding: 10px;
+    margin: 10px 5px 10px 10px;
+    background: #e1d8d842;
+    border: 1px solid white;
+}
+.shortcut img:hover{
+    border: 1px solid #ff4d0bba ;
+
+}
+.shortcut i{
+    padding:30px 0px 29px 5px;
+    margin:2px 30px 0px 8px;
+}

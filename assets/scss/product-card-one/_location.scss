@@ -1,0 +1,150 @@
+.right{
+    flex-basis: 35%;
+    background: #fff;
+    /*background:#f3e8e84d;*/
+}
+.header{
+    background: #f3e8e84d;
+    padding: 20px  20px 0px 20px;
+}
+.content{
+    background:#f3e8e84d;
+    padding:0  20px; 
+    margin-top: 10px ;
+    
+
+}
+
+.delivary{
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.952);
+}
+
+.location{
+    display:flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 8px 0px ;
+    color: rgba(0, 0, 0, 0.774);
+
+    i{
+        font-size: 13px;
+        color: rgba(128, 128, 128, 0.952);
+    }
+    span{
+        color: rgb(65 175 179 / 89%);
+    }
+
+}
+
+.stander{
+    display: flex;
+    justify-content: space-between;
+
+    p{
+        font-size: 12px;
+        padding: 12px 5px 12px 0;
+        color: rgba(128, 128, 128, 0.952) ;
+    
+    }
+    span{
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.637);
+        font-weight: 600;
+    
+    }
+    i{
+        font-size: 13px;
+        color: rgba(128, 128, 128, 0.952);
+    }
+
+
+
+}
+
+.cash{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.774);
+    padding-bottom: 15px;
+
+    i{
+        font-size: 13px;
+        color: rgba(128, 128, 128, 0.952);
+    }
+    
+    
+}
+
+.service{
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.952);
+    padding: 15px 0px;
+}
+
+.details{
+    p{
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.774);
+        padding-bottom: 15px;
+    }
+    span{
+        font-size: 13px;
+        color: rgba(128, 128, 128, 0.952);
+    
+    }
+
+}
+
+.sold{
+    display: flex;
+    justify-content: space-between;
+
+    p{
+        font-size: 12px;
+        padding: 10px 0;
+        color: rgba(128, 128, 128, 0.952) ;
+    
+    }
+    span{
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.774);
+    
+    }
+    i{
+        color: rgb(65 175 179 / 89%) ;
+    }
+
+}
+
+.rate{
+    display: flex;
+    justify-content: space-between;
+    p{
+        padding:15px 10px 0px 10px;
+        font-size: 13px;
+        color:  rgba(128, 128, 128, 0.952);
+    }
+    span{
+        font-size: 30px;
+        color: black;
+    }
+
+}
+
+.visit{
+
+ p{
+    font-size: 15px;
+    color:  rgb(65 175 179 / 89%);
+    padding: 5px 120px 6px 125px;
+
+ 
+   }
+
+}
+
+

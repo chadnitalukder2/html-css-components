@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    background-color: #e1d8d842;
+
+}
+.top{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    color:rgb(65 175 179 / 89%);
+    padding: 15px;
+
+    i{
+        color: rgba(92, 85, 85, 0.63);
+    }
+}
+.link{
+    color:rgb(61 54 54 / 80%);
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 82%;
+    background-color:#fff;
+
+}
