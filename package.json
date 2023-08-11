@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.64.2"
+  },
+  "dependencies": {
+    "boxicons": "^2.1.4"
   }
 }
