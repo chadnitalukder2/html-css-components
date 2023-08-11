@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sidebar-menu</title>
-    <link rel="stylesheet" href="../../assets/css/main.css">
     <script src="https://kit.fontawesome.com/e9aa5124db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../assets/scss/Sidebar-menu/_sidebar-menu.css">
+
 
 </head>
+
 <body>
     <nav class="sidebar">
         <header>
@@ -15,17 +18,36 @@
             <div class="image-text">
                 <span class="image">
                     <img src="../../assets/img/cc.png" alt="logo">
-                </span> 
+                </span>
 
                 <div class="text header-text">
                     <span class="name">Codinglab</span>
                     <span class="profession">Web developer</span>
                 </div>
             </div>
-            <i class="fa-solid fa-greater-than"></i>
-
+            <i class="fa-solid fa-greater-than toggle"></i>
         </header>
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class="fa-solid fa-magnifying-glass icon"></i>
+                    <input type="search" placeholder="search...">
+                </li>
+
+                <ul class="menu-link">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="fa-solid fa-house icon"></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
     </nav>
-    
+
 </body>
-</html> 
+
+</html>
